@@ -1,0 +1,36 @@
+@font-face {
+    font-family: font1;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+*{
+    background-image: url(images/bg-desktop.svg);
+    background: hsl(257, 40%, 49%);
+    font-family: font1;
+
+}
+.build{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.build .buildme{
+    flex-basis: 30%;
+    color: white;
+}
+.build img{
+    flex-basis: 40%;
+}
+.build button{
+    color: hsl(257, 40%, 49%);
+    border: none;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+button:hover{
+    background: hsl(300, 69%, 71%);
+    color: white;
+}
