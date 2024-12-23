@@ -33,4 +33,30 @@
 button:hover{
     background: hsl(300, 69%, 71%);
     color: white;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .build{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+    .buildme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        h1{
+            text-align: center;
+            font-size: 30px;
+        }
+        p{
+            text-align: center;
+        }
+        button{
+            align-self: center;
+        }
+    }
 }
